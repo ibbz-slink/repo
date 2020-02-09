@@ -84,16 +84,17 @@ a{
 
 
 a:hover{
-background: rgb(255,255,255,0.4);
-color: yellow;
-transform: translate(20px,50px)
+
+transform: scale(1.1)
 }
 
 nav{
 	color:red;
 	background-color: black;
+	width: 100vw;
 	display: block;
 	border-bottom: 2px solid yellow;
+	position: fixed;
 }
 li{
 	text-decoration: none;
@@ -103,7 +104,6 @@ li{
 	font-size: 1.3rem;
 }
 li:hover{
-	color: yellow;
 	cursor: pointer;
 }
 
