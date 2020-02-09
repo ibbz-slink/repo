@@ -81,10 +81,9 @@ a{
 a{
 	transition: all 1s;
 }
-
+ gd{}
 
 a:hover{
-
 transform: scale(1.1)
 }
 
